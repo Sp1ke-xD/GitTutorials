@@ -1,4 +1,4 @@
-#This is the sample file
+#This is the sample file change 1
 <?php
 // Show all information, defaults to INFO_ALL
 phpinfo();

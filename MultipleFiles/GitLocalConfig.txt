@@ -1,0 +1,25 @@
+Sp1ke_1337@DESKTOP-DA8EGLR MINGW64 /d/GIT Project (master)
+$  git config --global -l
+fatal: unable to read config file 'C:/Users/Sp1ke_1337/.gitconfig': No such file or directory
+
+Sp1ke_1337@DESKTOP-DA8EGLR MINGW64 /d/GIT Project (master)
+$ git config --global user.name "Sp1keDesktop"
+
+Sp1ke_1337@DESKTOP-DA8EGLR MINGW64 /d/GIT Project (master)
+$ git config --global user.email "parmar.dhaval1337@gmail.com"
+
+Sp1ke_1337@DESKTOP-DA8EGLR MINGW64 /d/GIT Project (master)
+$  git config --global -l
+user.name=Sp1keDesktop
+user.email=parmar.dhaval1337@gmail.com
+
+Sp1ke_1337@DESKTOP-DA8EGLR MINGW64 /d/GIT Project (master)
+$  git config --local -l
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/Sp1ke-xD/GitTutorials.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
