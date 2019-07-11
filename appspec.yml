@@ -7,11 +7,11 @@ hooks:
   BeforeInstall:
     - location: MultipleFiles/install_dependencies
       timeout: 180
-      runas: ubuntu
+      runas: root
     - location: MultipleFiles/start_server
       timeout: 180
-      runas: ubuntu
+      runas: root
   ApplicationStop:
     - location: MultipleFiles/stop_server
       timeout: 180
-      runas: ubuntu
+      runas: root
