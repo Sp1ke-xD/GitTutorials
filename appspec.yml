@@ -5,10 +5,10 @@ files:
     destination: /home/ubuntu/test
 hooks:
   BeforeInstall:
-    - location: /script1.txt
+    - location: /script1.sh
     - runas: ubuntu
 
   AfterInstall:
-    - location: /script2.txt
+    - location: /script2.sh
       timeout: 180
       runas: ubuntu
