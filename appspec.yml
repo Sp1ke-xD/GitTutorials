@@ -5,10 +5,13 @@ files:
     destination: /home/ubuntu/test
 hooks:
   BeforeInstall:
-    - location: ./script1.sh
-    - runas: ubuntu
-
-  AfterInstall:
-    - location: ./script2.sh
-      timeout: 180
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: ubuntu
+    - location: scripts/start_server
+      timeout: 300
+      runas: ubuntu
+  ApplicationStop:
+    - location: scripts/stop_server
+      timeout: 300
       runas: ubuntu
