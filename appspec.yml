@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: ~/test/
+hooks:
+  BeforeInstall:
+    - location: script1.txt
+    - runas: ubuntu
+
+  AfterInstall:
+    - location: script2.txt
+      timeout: 180
+      runas: ubuntu
