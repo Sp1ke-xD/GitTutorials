@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "wow second script" >> script_post.txt
